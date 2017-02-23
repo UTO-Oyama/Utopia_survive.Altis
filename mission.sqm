@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=129;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=317;
+		nextID=453;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8395.6836,113.13632,25177.564};
-		dir[]={-0.078954116,-0.99510705,0.05942858};
-		up[]={-0.79505479,0.098806359,0.59843558};
-		aside[]={0.60137963,1.4621764e-007,0.79896617};
+		pos[]={8403.6309,160.27814,25144.965};
+		dir[]={-0.043227088,-0.97818804,0.20321459};
+		up[]={-0.2035297,0.20758156,0.95680988};
+		aside[]={0.9781248,-4.505273e-008,0.20806296};
 	};
 };
 binarizationWanted=0;
@@ -84,15 +84,15 @@ class Mission
 	};
 	class Entities
 	{
-		items=151;
+		items=62;
 		class Item0
 		{
 			dataType="Marker";
-			position[]={3625.4622,8.3674274e+015,13124.929};
+			position[]={3636.8879,0,13098.804};
 			name="respawn_civ";
 			type="Empty";
 			id=34;
-			atlOffset=8.3674274e+015;
+			atlOffset=-10.142303;
 		};
 		class Item1
 		{
@@ -130,83 +130,11 @@ class Mission
 		};
 		class Item3
 		{
-			dataType="Marker";
-			position[]={3667.572,8.3674274e+015,13099.604};
-			name="respawn_civ_1";
-			type="Empty";
-			id=38;
-			atlOffset=8.3674274e+015;
-		};
-		class Item4
-		{
-			dataType="Marker";
-			position[]={3630.644,8.3674274e+015,13063.72};
-			name="respawn_civ_2";
-			type="Empty";
-			id=39;
-			atlOffset=8.3674274e+015;
-		};
-		class Item5
-		{
-			dataType="Marker";
-			position[]={3652.9404,8.3674274e+015,13177.291};
-			name="respawn_civ_3";
-			type="Empty";
-			id=40;
-			atlOffset=8.3674274e+015;
-		};
-		class Item6
-		{
-			dataType="Marker";
-			position[]={3629.9175,7.1887509e+015,13132.456};
-			name="BASE_";
-			type="Empty";
-			id=41;
-			atlOffset=7.1887509e+015;
-		};
-		class Item7
-		{
-			dataType="Marker";
-			position[]={3729.2861,7.1887509e+015,13010.907};
-			name="BASE__1";
-			type="Empty";
-			id=42;
-			atlOffset=7.1887509e+015;
-		};
-		class Item8
-		{
-			dataType="Marker";
-			position[]={3623.2192,7.1887509e+015,12934.51};
-			name="BASE__2";
-			type="Empty";
-			id=43;
-			atlOffset=7.1887509e+015;
-		};
-		class Item9
-		{
-			dataType="Marker";
-			position[]={3527.4348,7.1887509e+015,13066.135};
-			name="BASE__3";
-			type="Empty";
-			id=44;
-			atlOffset=7.1887509e+015;
-		};
-		class Item10
-		{
-			dataType="Marker";
-			position[]={3512.6038,7.1887509e+015,13092.089};
-			name="BASE__4";
-			type="Empty";
-			id=45;
-			atlOffset=7.1887509e+015;
-		};
-		class Item11
-		{
 			dataType="Group";
 			side="Civilian";
 			class Entities
 			{
-				items=101;
+				items=100;
 				class Item0
 				{
 					dataType="Object";
@@ -4016,47 +3944,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8400.873,106.49039,25144.801};
-					};
-					side="Civilian";
-					flags=5;
-					class Attributes
-					{
-						skill=1;
-						isPlayable=1;
-					};
-					id=159;
-					type="C_man_shorts_3_F";
-					atlOffset=-0.031715393;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item94
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={8390.5508,104.61745,25144.508};
 					};
 					side="Civilian";
@@ -4093,7 +3980,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item95
+				class Item94
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4134,7 +4021,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item96
+				class Item95
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4175,7 +4062,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item97
+				class Item96
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4216,7 +4103,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item98
+				class Item97
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4258,7 +4145,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item99
+				class Item98
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4299,7 +4186,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item100
+				class Item99
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4346,1256 +4233,525 @@ class Mission
 			};
 			id=46;
 		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={3637.6804,0,13076.149};
+			name="respawn_civ_1";
+			type="Empty";
+			id=341;
+			atlOffset=-10.173156;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={3633.4246,0,13122.581};
+			name="respawn_civ_2";
+			type="Empty";
+			id=342;
+			atlOffset=-10.077069;
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={3685.4558,10.94108,13109.267};
+			name="respawn_civ_3";
+			type="Empty";
+			id=343;
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={3757.1191,18.848986,13002.066};
+			name="respawn_civ_4";
+			type="Empty";
+			id=344;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={3308.1563,-7.4789381,12964.451};
+			name="respawn_civ_5";
+			type="Empty";
+			id=353;
+			atlOffset=-9.7722492;
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={3603.3315,-1.0143261,13179.402};
+			name="respawn_civ_6";
+			type="Empty";
+			id=362;
+			atlOffset=-10.087648;
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={3742.501,8.7388973,12997.28};
+			name="respawn_civ_7";
+			type="Empty";
+			id=375;
+			atlOffset=-10.091396;
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={3597.168,-1.9954948,13179.316};
+			name="respawn_civ_8";
+			type="Empty";
+			id=384;
+			atlOffset=-10.090287;
+		};
 		class Item12
 		{
 			dataType="Marker";
-			position[]={3546.8157,7.1887509e+015,12843.248};
-			name="BASE__5";
+			position[]={3732.9329,8.5825186,12996.92};
+			name="respawn_civ_9";
 			type="Empty";
-			id=178;
-			atlOffset=7.1887509e+015;
+			id=389;
+			atlOffset=-10.169818;
 		};
 		class Item13
 		{
 			dataType="Marker";
-			position[]={3948.2351,7.1887509e+015,12658.585};
-			name="BASE__6";
+			position[]={3756.29,8.3739824,13039.556};
+			name="respawn_civ_10";
 			type="Empty";
-			id=179;
-			atlOffset=7.1887509e+015;
+			id=390;
+			atlOffset=-10.185151;
 		};
 		class Item14
 		{
 			dataType="Marker";
-			position[]={3244.6577,7.1887509e+015,12962.045};
-			name="BASE__7";
+			position[]={3309.7109,-7.9779696,12967.319};
+			name="respawn_civ_11";
 			type="Empty";
-			id=180;
-			atlOffset=7.1887509e+015;
+			id=391;
+			atlOffset=-10.285131;
 		};
 		class Item15
 		{
 			dataType="Marker";
-			position[]={3007.4001,7.1887509e+015,12534.628};
-			name="BASE__8";
+			position[]={3655.4846,-2.5808821,13339.754};
+			name="respawn_civ_12";
 			type="Empty";
-			id=181;
-			atlOffset=7.1887509e+015;
+			id=392;
+			atlOffset=-10.087177;
 		};
 		class Item16
 		{
 			dataType="Marker";
-			position[]={3253.8774,7.1887509e+015,12451.324};
-			name="BASE__9";
+			position[]={3649.4058,-3.0714321,13333.636};
+			name="respawn_civ_13";
 			type="Empty";
-			id=182;
-			atlOffset=7.1887509e+015;
+			id=393;
+			atlOffset=-10.116976;
 		};
 		class Item17
 		{
 			dataType="Marker";
-			position[]={3682.8577,7.1887509e+015,12290.891};
-			name="BASE__10";
+			position[]={3589.2646,2.779541,12840.439};
+			name="respawn_civ_14";
 			type="Empty";
-			id=183;
-			atlOffset=7.1887509e+015;
+			id=402;
+			atlOffset=-10.17381;
 		};
 		class Item18
 		{
 			dataType="Marker";
-			position[]={4099.123,7.1887509e+015,11756.733};
-			name="BASE__11";
+			position[]={3358.3027,-5.9553919,13139.577};
+			name="respawn_civ_15";
 			type="Empty";
-			id=184;
-			atlOffset=7.1887509e+015;
+			id=403;
+			atlOffset=-10.012299;
 		};
 		class Item19
 		{
 			dataType="Marker";
-			position[]={4037.7046,7.1887509e+015,11689.823};
-			name="BASE__12";
+			position[]={3403.6807,-7.697185,13220.797};
+			name="respawn_civ_16";
 			type="Empty";
-			id=185;
-			atlOffset=7.1887509e+015;
+			id=404;
+			atlOffset=-10.210516;
 		};
 		class Item20
 		{
 			dataType="Marker";
-			position[]={4179.0166,7.1887509e+015,11675.841};
-			name="BASE__13";
+			position[]={3822.1743,5.1111717,13601.867};
+			name="respawn_civ_17";
 			type="Empty";
-			id=186;
-			atlOffset=7.1887509e+015;
+			id=405;
+			atlOffset=-10.173821;
 		};
 		class Item21
 		{
 			dataType="Marker";
-			position[]={4221.96,7.1887509e+015,11795.182};
-			name="BASE__14";
+			position[]={3511.0439,-0.48428345,12666.663};
+			name="respawn_civ_18";
 			type="Empty";
-			id=187;
-			atlOffset=7.1887509e+015;
+			id=406;
+			atlOffset=-10.17449;
 		};
 		class Item22
 		{
 			dataType="Marker";
-			position[]={4275.3887,7.1887509e+015,11857.099};
-			name="BASE__15";
+			position[]={4168.1343,41.831657,11800.503};
+			name="respawn_civ_19";
 			type="Empty";
-			id=188;
-			atlOffset=7.1887509e+015;
+			id=407;
+			atlOffset=-10.190487;
 		};
 		class Item23
 		{
 			dataType="Marker";
-			position[]={5048.9814,7.1887509e+015,11317.23};
-			name="BASE__16";
+			position[]={4182.7446,43.418621,11723.207};
+			name="respawn_civ_20";
 			type="Empty";
-			id=189;
-			atlOffset=7.1887509e+015;
+			id=408;
+			atlOffset=-10.091175;
 		};
 		class Item24
 		{
 			dataType="Marker";
-			position[]={5152.7598,7.1887509e+015,11195.559};
-			name="BASE__17";
+			position[]={5051.0762,43.923595,11317.152};
+			name="respawn_civ_21";
 			type="Empty";
-			id=190;
-			atlOffset=7.1887509e+015;
+			id=409;
+			atlOffset=-10.178398;
 		};
 		class Item25
 		{
 			dataType="Marker";
-			position[]={5080.4722,7.1887509e+015,11199.137};
-			name="BASE__18";
+			position[]={5129.2451,39.397129,11211.812};
+			name="respawn_civ_22";
 			type="Empty";
-			id=191;
-			atlOffset=7.1887509e+015;
+			id=410;
+			atlOffset=-10.152493;
 		};
 		class Item26
 		{
 			dataType="Marker";
-			position[]={4978.1367,7.1887509e+015,11388.986};
-			name="BASE__19";
+			position[]={5048.9858,30.72673,11150.78};
+			name="respawn_civ_23";
 			type="Empty";
-			id=192;
-			atlOffset=7.1887509e+015;
+			id=411;
+			atlOffset=-10.155106;
 		};
 		class Item27
 		{
 			dataType="Marker";
-			position[]={7144.8232,7.1887509e+015,11039.908};
-			name="BASE__20";
+			position[]={5149.5732,36.574028,11093.527};
+			name="respawn_civ_24";
 			type="Empty";
-			id=193;
-			atlOffset=7.1887509e+015;
+			id=412;
+			atlOffset=-10.05452;
 		};
 		class Item28
 		{
 			dataType="Marker";
-			position[]={8250.21,7.1887509e+015,10899.994};
-			name="BASE__21";
+			position[]={7149.0894,-5.496233,11052.514};
+			name="respawn_civ_25";
 			type="Empty";
-			id=194;
-			atlOffset=7.1887509e+015;
+			id=419;
+			atlOffset=-10.185958;
 		};
 		class Item29
 		{
 			dataType="Marker";
-			position[]={8863.5117,7.1887509e+015,12102.363};
-			name="BASE__22";
+			position[]={8908.9863,17.597481,11998.261};
+			name="respawn_civ_26";
 			type="Empty";
-			id=195;
-			atlOffset=7.1887509e+015;
+			id=420;
+			atlOffset=-10.18915;
 		};
 		class Item30
 		{
 			dataType="Marker";
-			position[]={8811.5801,7.1887509e+015,12034.455};
-			name="BASE__23";
+			position[]={9007.8281,20.468815,12106.135};
+			name="respawn_civ_27";
 			type="Empty";
-			id=196;
-			atlOffset=7.1887509e+015;
+			id=421;
+			atlOffset=-10.206482;
 		};
 		class Item31
 		{
 			dataType="Marker";
-			position[]={9093.2051,7.1887509e+015,12018.976};
-			name="BASE__24";
+			position[]={8881.3545,24.616161,12109.325};
+			name="respawn_civ_28";
 			type="Empty";
-			id=197;
-			atlOffset=7.1887509e+015;
+			id=422;
+			atlOffset=-10.139164;
 		};
 		class Item32
 		{
 			dataType="Marker";
-			position[]={9248,7.1887509e+015,11966.045};
-			name="BASE__25";
+			position[]={9109.3271,9.0525236,11949.371};
+			name="respawn_civ_29";
 			type="Empty";
-			id=198;
-			atlOffset=7.1887509e+015;
+			id=423;
+			atlOffset=-10.175792;
 		};
 		class Item33
 		{
 			dataType="Marker";
-			position[]={9345.3711,7.1887509e+015,11878.661};
-			name="BASE__26";
+			position[]={9438.2695,7.3680544,11645.414};
+			name="respawn_civ_30";
 			type="Empty";
-			id=199;
-			atlOffset=7.1887509e+015;
+			id=424;
+			atlOffset=-10.178487;
 		};
 		class Item34
 		{
 			dataType="Marker";
-			position[]={9120.6689,7.1887509e+015,11901.131};
-			name="BASE__27";
+			position[]={10560.886,5.1896439,12333.587};
+			name="respawn_civ_31";
 			type="Empty";
-			id=200;
-			atlOffset=7.1887509e+015;
+			id=425;
+			atlOffset=-10.157159;
 		};
 		class Item35
 		{
 			dataType="Marker";
-			position[]={9100.1963,7.1887509e+015,11836.218};
-			name="BASE__28";
+			position[]={10729.243,7.669652,12231.652};
+			name="respawn_civ_32";
 			type="Empty";
-			id=201;
-			atlOffset=7.1887509e+015;
+			id=426;
+			atlOffset=-10.170489;
 		};
 		class Item36
 		{
 			dataType="Marker";
-			position[]={8997.333,7.1887509e+015,11976.031};
-			name="BASE__29";
+			position[]={10667.753,7.6088018,12158.983};
+			name="respawn_civ_33";
 			type="Empty";
-			id=202;
-			atlOffset=7.1887509e+015;
+			id=427;
+			atlOffset=-10.171155;
 		};
 		class Item37
 		{
 			dataType="Marker";
-			position[]={9029.79,7.1887509e+015,12015.978};
-			name="BASE__30";
+			position[]={12283.641,-2.4302096,14244.618};
+			name="respawn_civ_34";
 			type="Empty";
-			id=203;
-			atlOffset=7.1887509e+015;
+			id=428;
+			atlOffset=-9.9801579;
 		};
 		class Item38
 		{
 			dataType="Marker";
-			position[]={8935.915,7.1887509e+015,12081.891};
-			name="BASE__31";
+			position[]={12476.171,-0.80485344,14314.2};
+			name="respawn_civ_35";
 			type="Empty";
-			id=204;
-			atlOffset=7.1887509e+015;
+			id=429;
+			atlOffset=-10.135833;
 		};
 		class Item39
 		{
 			dataType="Marker";
-			position[]={10954.446,7.1887509e+015,13444.442};
-			name="BASE__32";
+			position[]={12692.346,6.7186022,14409.452};
+			name="respawn_civ_36";
 			type="Empty";
-			id=205;
-			atlOffset=7.1887509e+015;
+			id=430;
+			atlOffset=-10.159825;
 		};
 		class Item40
 		{
 			dataType="Marker";
-			position[]={11058.545,7.1887509e+015,13379.079};
-			name="BASE__33";
+			position[]={12475.496,6.3399,14450.662};
+			name="respawn_civ_37";
 			type="Empty";
-			id=206;
-			atlOffset=7.1887509e+015;
+			id=431;
+			atlOffset=-10.137832;
 		};
 		class Item41
 		{
 			dataType="Marker";
-			position[]={11035.949,7.1887509e+015,13313.714};
-			name="BASE__34";
+			position[]={12667.351,-6.8781738,14231.785};
+			name="respawn_civ_38";
 			type="Empty";
-			id=207;
-			atlOffset=7.1887509e+015;
+			id=432;
+			atlOffset=-10.194653;
 		};
 		class Item42
 		{
 			dataType="Marker";
-			position[]={10839.051,7.1887509e+015,13424.27};
-			name="BASE__35";
+			position[]={13932.949,13.024209,18723.504};
+			name="respawn_civ_39";
 			type="Empty";
-			id=208;
-			atlOffset=7.1887509e+015;
+			id=433;
+			atlOffset=-10.151162;
 		};
 		class Item43
 		{
 			dataType="Marker";
-			position[]={6148.6724,7.1887509e+015,16230.308};
-			name="BASE__36";
+			position[]={14027.84,13.622443,18841.385};
+			name="respawn_civ_40";
 			type="Empty";
-			id=209;
-			atlOffset=7.1887509e+015;
+			id=434;
+			atlOffset=-10.153827;
 		};
 		class Item44
 		{
 			dataType="Marker";
-			position[]={7117.9971,7.1887509e+015,16442.896};
-			name="BASE__37";
+			position[]={13874.846,10.011119,18898.234};
+			name="respawn_civ_41";
 			type="Empty";
-			id=210;
-			atlOffset=7.1887509e+015;
+			id=435;
+			atlOffset=-10.175052;
 		};
 		class Item45
 		{
 			dataType="Marker";
-			position[]={7130.6924,7.1887509e+015,16527.957};
-			name="BASE__38";
+			position[]={14074.24,17.222725,18685.045};
+			name="respawn_civ_42";
 			type="Empty";
-			id=211;
-			atlOffset=7.1887509e+015;
+			id=436;
+			atlOffset=-10.186962;
 		};
 		class Item46
 		{
 			dataType="Marker";
-			position[]={7235.4316,7.1887509e+015,16406.078};
-			name="BASE__39";
+			position[]={14022.405,12.552697,18570.926};
+			name="respawn_civ_43";
 			type="Empty";
-			id=212;
-			atlOffset=7.1887509e+015;
+			id=437;
+			atlOffset=-10.157161;
 		};
 		class Item47
 		{
 			dataType="Marker";
-			position[]={6984.6934,7.1887509e+015,16310.226};
-			name="BASE__40";
+			position[]={16361.466,15.663762,17296.115};
+			name="respawn_civ_44";
 			type="Empty";
-			id=213;
-			atlOffset=7.1887509e+015;
+			id=438;
+			atlOffset=-10.075847;
 		};
 		class Item48
 		{
 			dataType="Marker";
-			position[]={16254.699,7.1887509e+015,17317.84};
-			name="BASE__41";
+			position[]={16311.284,12.227696,17229.598};
+			name="respawn_civ_45";
 			type="Empty";
-			id=214;
-			atlOffset=7.1887509e+015;
+			id=439;
+			atlOffset=-10.143773;
 		};
 		class Item49
 		{
 			dataType="Marker";
-			position[]={16424.725,7.1887509e+015,17264.633};
-			name="BASE__42";
+			position[]={18156.182,15.356038,15224.228};
+			name="respawn_civ_46";
 			type="Empty";
-			id=215;
-			atlOffset=7.1887509e+015;
+			id=440;
+			atlOffset=-10.134498;
 		};
 		class Item50
 		{
 			dataType="Marker";
-			position[]={16379.617,7.1887509e+015,17172.104};
-			name="BASE__43";
+			position[]={18010.105,18.152035,15243.507};
+			name="respawn_civ_47";
 			type="Empty";
-			id=216;
-			atlOffset=7.1887509e+015;
+			id=441;
+			atlOffset=-10.100492;
 		};
 		class Item51
 		{
 			dataType="Marker";
-			position[]={16304.848,7.1887509e+015,17209.018};
-			name="BASE__44";
+			position[]={18016.779,23.750324,15309.869};
+			name="respawn_civ_48";
 			type="Empty";
-			id=217;
-			atlOffset=7.1887509e+015;
+			id=442;
+			atlOffset=-10.158493;
 		};
 		class Item52
 		{
 			dataType="Marker";
-			position[]={16295.612,7.1887509e+015,17256.412};
-			name="BASE__45";
+			position[]={18181.021,10.305112,15108.926};
+			name="respawn_civ_49";
 			type="Empty";
-			id=218;
-			atlOffset=7.1887509e+015;
+			id=443;
+			atlOffset=-10.160491;
 		};
 		class Item53
 		{
 			dataType="Marker";
-			position[]={16154.033,7.1887509e+015,17298.982};
-			name="BASE__46";
+			position[]={16783.336,9.0469084,12605.559};
+			name="respawn_civ_50";
 			type="Empty";
-			id=219;
-			atlOffset=7.1887509e+015;
+			id=444;
+			atlOffset=-10.123834;
 		};
 		class Item54
 		{
 			dataType="Marker";
-			position[]={14028.055,7.1887509e+015,18751.008};
-			name="BASE__47";
+			position[]={16785.549,9.2194824,12607.483};
+			name="respawn_civ_51";
 			type="Empty";
-			id=220;
-			atlOffset=7.1887509e+015;
+			id=445;
+			atlOffset=-10.152227;
 		};
 		class Item55
 		{
 			dataType="Marker";
-			position[]={13935.723,7.1887509e+015,18723.42};
-			name="BASE__48";
+			position[]={16558.846,-7.6591759,12480.431};
+			name="respawn_civ_52";
 			type="Empty";
-			id=221;
-			atlOffset=7.1887509e+015;
+			id=446;
+			atlOffset=-10.175166;
 		};
 		class Item56
 		{
 			dataType="Marker";
-			position[]={13935.159,7.1887509e+015,18824.195};
-			name="BASE__49";
+			position[]={16429.77,-6.3379107,12666.299};
+			name="respawn_civ_53";
 			type="Empty";
-			id=222;
-			atlOffset=7.1887509e+015;
+			id=447;
+			atlOffset=-10.145829;
 		};
 		class Item57
 		{
 			dataType="Marker";
-			position[]={14036.499,7.1887509e+015,18859.666};
-			name="BASE__50";
+			position[]={16558.438,0.71668434,12817.119};
+			name="respawn_civ_54";
 			type="Empty";
-			id=223;
-			atlOffset=7.1887509e+015;
+			id=448;
+			atlOffset=-10.178382;
 		};
 		class Item58
 		{
 			dataType="Marker";
-			position[]={14320.251,7.1887509e+015,18915.402};
-			name="BASE__51";
+			position[]={20784.773,28.273586,6712.9048};
+			name="respawn_civ_55";
 			type="Empty";
-			id=224;
-			atlOffset=7.1887509e+015;
+			id=449;
+			atlOffset=-10.21648;
 		};
 		class Item59
 		{
 			dataType="Marker";
-			position[]={13818.055,7.1887509e+015,18969.449};
-			name="BASE__52";
+			position[]={20697.277,29.41114,6800.0298};
+			name="respawn_civ_56";
 			type="Empty";
-			id=225;
-			atlOffset=7.1887509e+015;
+			id=450;
+			atlOffset=-10.168488;
 		};
 		class Item60
 		{
 			dataType="Marker";
-			position[]={13860.843,7.1887509e+015,18735.805};
-			name="BASE__53";
+			position[]={20828.891,22.498013,6818.5674};
+			name="respawn_civ_57";
 			type="Empty";
-			id=226;
-			atlOffset=7.1887509e+015;
+			id=451;
+			atlOffset=-10.205818;
 		};
 		class Item61
 		{
 			dataType="Marker";
-			position[]={13949.234,7.1887509e+015,18600.686};
-			name="BASE__54";
-			type="Empty";
-			id=227;
-			atlOffset=7.1887509e+015;
-		};
-		class Item62
-		{
-			dataType="Marker";
-			position[]={8550.3926,7.1887509e+015,18256.773};
-			name="BASE__55";
-			type="Empty";
-			id=228;
-			atlOffset=7.1887509e+015;
-		};
-		class Item63
-		{
-			dataType="Marker";
-			position[]={8633.2832,7.1887509e+015,18284.236};
-			name="BASE__56";
-			type="Empty";
-			id=229;
-			atlOffset=7.1887509e+015;
-		};
-		class Item64
-		{
-			dataType="Marker";
-			position[]={8656.252,7.1887509e+015,18185.369};
-			name="BASE__57";
-			type="Empty";
-			id=230;
-			atlOffset=7.1887509e+015;
-		};
-		class Item65
-		{
-			dataType="Marker";
-			position[]={8575.8594,7.1887509e+015,18185.867};
-			name="BASE__58";
-			type="Empty";
-			id=231;
-			atlOffset=7.1887509e+015;
-		};
-		class Item66
-		{
-			dataType="Marker";
-			position[]={4537.3867,7.1887509e+015,21406.912};
-			name="BASE__59";
-			type="Empty";
-			id=232;
-			atlOffset=7.1887509e+015;
-		};
-		class Item67
-		{
-			dataType="Marker";
-			position[]={4586.8784,7.1887509e+015,21380.203};
-			name="BASE__60";
-			type="Empty";
-			id=233;
-			atlOffset=7.1887509e+015;
-		};
-		class Item68
-		{
-			dataType="Marker";
-			position[]={4561.7397,7.1887509e+015,21333.461};
-			name="BASE__61";
-			type="Empty";
-			id=234;
-			atlOffset=7.1887509e+015;
-		};
-		class Item69
-		{
-			dataType="Marker";
-			position[]={16578.936,7.1887509e+015,12707.699};
-			name="BASE__62";
-			type="Empty";
-			id=235;
-			atlOffset=7.1887509e+015;
-		};
-		class Item70
-		{
-			dataType="Marker";
-			position[]={16666.895,7.1887509e+015,12812.604};
-			name="BASE__63";
-			type="Empty";
-			id=236;
-			atlOffset=7.1887509e+015;
-		};
-		class Item71
-		{
-			dataType="Marker";
-			position[]={16942.07,7.1887509e+015,12784.359};
-			name="BASE__64";
-			type="Empty";
-			id=237;
-			atlOffset=7.1887509e+015;
-		};
-		class Item72
-		{
-			dataType="Marker";
-			position[]={16890.607,7.1887509e+015,12664.197};
-			name="BASE__65";
-			type="Empty";
-			id=238;
-			atlOffset=7.1887509e+015;
-		};
-		class Item73
-		{
-			dataType="Marker";
-			position[]={16848.533,7.1887509e+015,12659.768};
-			name="BASE__66";
-			type="Empty";
-			id=239;
-			atlOffset=7.1887509e+015;
-		};
-		class Item74
-		{
-			dataType="Marker";
-			position[]={16939.322,7.1887509e+015,12601.31};
-			name="BASE__67";
-			type="Empty";
-			id=240;
-			atlOffset=7.1887509e+015;
-		};
-		class Item75
-		{
-			dataType="Marker";
-			position[]={17007.523,7.1887509e+015,12581.823};
-			name="BASE__68";
-			type="Empty";
-			id=241;
-			atlOffset=7.1887509e+015;
-		};
-		class Item76
-		{
-			dataType="Marker";
-			position[]={16830.818,7.1887509e+015,12586.695};
-			name="BASE__69";
-			type="Empty";
-			id=242;
-			atlOffset=7.1887509e+015;
-		};
-		class Item77
-		{
-			dataType="Marker";
-			position[]={16571.738,7.1887509e+015,12487.934};
-			name="BASE__70";
-			type="Empty";
-			id=243;
-			atlOffset=7.1887509e+015;
-		};
-		class Item78
-		{
-			dataType="Marker";
-			position[]={16548.709,7.1887509e+015,12475.097};
-			name="BASE__71";
-			type="Empty";
-			id=244;
-			atlOffset=7.1887509e+015;
-		};
-		class Item79
-		{
-			dataType="Marker";
-			position[]={16665.01,7.1887509e+015,12295.246};
-			name="BASE__72";
-			type="Empty";
-			id=245;
-			atlOffset=7.1887509e+015;
-		};
-		class Item80
-		{
-			dataType="Marker";
-			position[]={20795.389,7.1887509e+015,6754.583};
-			name="BASE__73";
-			type="Empty";
-			id=246;
-			atlOffset=7.1887509e+015;
-		};
-		class Item81
-		{
-			dataType="Marker";
-			position[]={20719.85,7.1887509e+015,6799.6528};
-			name="BASE__74";
-			type="Empty";
-			id=247;
-			atlOffset=7.1887509e+015;
-		};
-		class Item82
-		{
-			dataType="Marker";
-			position[]={20851.25,7.1887509e+015,6817.4268};
-			name="BASE__75";
-			type="Empty";
-			id=248;
-			atlOffset=7.1887509e+015;
-		};
-		class Item83
-		{
-			dataType="Marker";
-			position[]={20827.764,7.1887509e+015,6654.9243};
-			name="BASE__76";
-			type="Empty";
-			id=249;
-			atlOffset=7.1887509e+015;
-		};
-		class Item84
-		{
-			dataType="Marker";
-			position[]={26831.984,7.1887509e+015,23154.375};
-			name="BASE__77";
-			type="Empty";
-			id=250;
-			atlOffset=7.1887509e+015;
-		};
-		class Item85
-		{
-			dataType="Marker";
-			position[]={26945.834,7.1887509e+015,23103.941};
-			name="BASE__78";
-			type="Empty";
-			id=251;
-			atlOffset=7.1887509e+015;
-		};
-		class Item86
-		{
-			dataType="Marker";
-			position[]={27093.139,7.1887509e+015,23206.805};
-			name="BASE__79";
-			type="Empty";
-			id=252;
-			atlOffset=7.1887509e+015;
-		};
-		class Item87
-		{
-			dataType="Marker";
-			position[]={27115.607,7.1887509e+015,23314.662};
-			name="BASE__80";
-			type="Empty";
-			id=253;
-			atlOffset=7.1887509e+015;
-		};
-		class Item88
-		{
-			dataType="Marker";
-			position[]={27016.24,7.1887509e+015,23313.164};
-			name="BASE__81";
-			type="Empty";
-			id=254;
-			atlOffset=7.1887509e+015;
-		};
-		class Item89
-		{
-			dataType="Marker";
-			position[]={27106.121,7.1887509e+015,23366.594};
-			name="BASE__82";
-			type="Empty";
-			id=255;
-			atlOffset=7.1887509e+015;
-		};
-		class Item90
-		{
-			dataType="Marker";
-			position[]={3454.606,8.3674274e+015,13264.018};
-			name="respawn_civ_4";
-			type="Empty";
-			id=256;
-			atlOffset=8.3674274e+015;
-		};
-		class Item91
-		{
-			dataType="Marker";
-			position[]={3751.8474,8.3674274e+015,13704.476};
-			name="respawn_civ_5";
-			type="Empty";
-			id=257;
-			atlOffset=8.3674274e+015;
-		};
-		class Item92
-		{
-			dataType="Marker";
-			position[]={6195.9507,8.3674274e+015,16243.458};
-			name="respawn_civ_6";
-			type="Empty";
-			id=258;
-			atlOffset=8.3674274e+015;
-		};
-		class Item93
-		{
-			dataType="Marker";
-			position[]={7147.8452,8.3674274e+015,16416.221};
-			name="respawn_civ_7";
-			type="Empty";
-			id=259;
-			atlOffset=8.3674274e+015;
-		};
-		class Item94
-		{
-			dataType="Marker";
-			position[]={7187.8369,8.3674274e+015,16496.203};
-			name="respawn_civ_8";
-			type="Empty";
-			id=260;
-			atlOffset=8.3674274e+015;
-		};
-		class Item95
-		{
-			dataType="Marker";
-			position[]={8646.2188,8.3674274e+015,18236.127};
-			name="respawn_civ_9";
-			type="Empty";
-			id=261;
-			atlOffset=8.3674274e+015;
-		};
-		class Item96
-		{
-			dataType="Marker";
-			position[]={8581.0117,8.3674274e+015,18319.592};
-			name="respawn_civ_10";
-			type="Empty";
-			id=262;
-			atlOffset=8.3674274e+015;
-		};
-		class Item97
-		{
-			dataType="Marker";
-			position[]={9363.3828,8.3674274e+015,20252.699};
-			name="respawn_civ_11";
-			type="Empty";
-			id=263;
-			atlOffset=8.3674274e+015;
-		};
-		class Item98
-		{
-			dataType="Marker";
-			position[]={9479.2754,8.3674274e+015,20265.783};
-			name="respawn_civ_12";
-			type="Empty";
-			id=264;
-			atlOffset=8.3674274e+015;
-		};
-		class Item99
-		{
-			dataType="Marker";
-			position[]={10367.114,8.3674274e+015,19078.275};
-			name="respawn_civ_13";
-			type="Empty";
-			id=265;
-			atlOffset=8.3674274e+015;
-		};
-		class Item100
-		{
-			dataType="Marker";
-			position[]={10273.218,8.3674274e+015,19060.016};
-			name="respawn_civ_14";
-			type="Empty";
-			id=266;
-			atlOffset=8.3674274e+015;
-		};
-		class Item101
-		{
-			dataType="Marker";
-			position[]={14573.404,8.3674274e+015,20782.34};
-			name="respawn_civ_15";
-			type="Empty";
-			id=267;
-			atlOffset=8.3674274e+015;
-		};
-		class Item102
-		{
-			dataType="Marker";
-			position[]={14664.3,8.3674274e+015,20772.318};
-			name="respawn_civ_16";
-			type="Empty";
-			id=268;
-			atlOffset=8.3674274e+015;
-		};
-		class Item103
-		{
-			dataType="Marker";
-			position[]={17876.348,8.3674274e+015,18111.313};
-			name="respawn_civ_17";
-			type="Empty";
-			id=269;
-			atlOffset=8.3674274e+015;
-		};
-		class Item104
-		{
-			dataType="Marker";
-			position[]={17820.422,8.3674274e+015,18083.848};
-			name="respawn_civ_18";
-			type="Empty";
-			id=270;
-			atlOffset=8.3674274e+015;
-		};
-		class Item105
-		{
-			dataType="Marker";
-			position[]={18819.26,8.3674274e+015,16627.266};
-			name="respawn_civ_19";
-			type="Empty";
-			id=271;
-			atlOffset=8.3674274e+015;
-		};
-		class Item106
-		{
-			dataType="Marker";
-			position[]={18698.018,8.3674274e+015,16682.492};
-			name="respawn_civ_20";
-			type="Empty";
-			id=272;
-			atlOffset=8.3674274e+015;
-		};
-		class Item107
-		{
-			dataType="Marker";
-			position[]={18790.695,8.3674274e+015,16719.943};
-			name="respawn_civ_21";
-			type="Empty";
-			id=273;
-			atlOffset=8.3674274e+015;
-		};
-		class Item108
-		{
-			dataType="Marker";
-			position[]={18877.66,8.3674274e+015,16559.979};
-			name="respawn_civ_22";
-			type="Empty";
-			id=274;
-			atlOffset=8.3674274e+015;
-		};
-		class Item109
-		{
-			dataType="Marker";
-			position[]={18040.826,8.3674274e+015,15267.675};
-			name="respawn_civ_23";
-			type="Empty";
-			id=275;
-			atlOffset=8.3674274e+015;
-		};
-		class Item110
-		{
-			dataType="Marker";
-			position[]={18154.645,8.3674274e+015,15247.303};
-			name="respawn_civ_24";
-			type="Empty";
-			id=276;
-			atlOffset=8.3674274e+015;
-		};
-		class Item111
-		{
-			dataType="Marker";
-			position[]={18067.398,8.3674274e+015,15194.158};
-			name="respawn_civ_25";
-			type="Empty";
-			id=277;
-			atlOffset=8.3674274e+015;
-		};
-		class Item112
-		{
-			dataType="Marker";
-			position[]={17951.811,8.3674274e+015,15193.271};
-			name="respawn_civ_26";
-			type="Empty";
-			id=278;
-			atlOffset=8.3674274e+015;
-		};
-		class Item113
-		{
-			dataType="Marker";
-			position[]={21316.092,8.3674274e+015,16343.266};
-			name="respawn_civ_27";
-			type="Empty";
-			id=279;
-			atlOffset=8.3674274e+015;
-		};
-		class Item114
-		{
-			dataType="Marker";
-			position[]={21372.527,8.3674274e+015,16434.191};
-			name="respawn_civ_28";
-			type="Empty";
-			id=280;
-			atlOffset=8.3674274e+015;
-		};
-		class Item115
-		{
-			dataType="Marker";
-			position[]={21541.143,8.3674274e+015,16321.316};
-			name="respawn_civ_29";
-			type="Empty";
-			id=281;
-			atlOffset=8.3674274e+015;
-		};
-		class Item116
-		{
-			dataType="Marker";
-			position[]={20886.32,8.3674274e+015,16985.08};
-			name="respawn_civ_30";
-			type="Empty";
-			id=282;
-			atlOffset=8.3674274e+015;
-		};
-		class Item117
-		{
-			dataType="Marker";
-			position[]={20999.484,8.3674274e+015,16896.688};
-			name="respawn_civ_31";
-			type="Empty";
-			id=283;
-			atlOffset=8.3674274e+015;
-		};
-		class Item118
-		{
-			dataType="Marker";
-			position[]={20841.842,8.3674274e+015,16824.625};
-			name="respawn_civ_32";
-			type="Empty";
-			id=284;
-			atlOffset=8.3674274e+015;
-		};
-		class Item119
-		{
-			dataType="Marker";
-			position[]={21025.945,8.3674274e+015,16695.133};
-			name="respawn_civ_33";
-			type="Empty";
-			id=285;
-			atlOffset=8.3674274e+015;
-		};
-		class Item120
-		{
-			dataType="Marker";
-			position[]={21084.498,8.3674274e+015,17157.355};
-			name="respawn_civ_34";
-			type="Empty";
-			id=286;
-			atlOffset=8.3674274e+015;
-		};
-		class Item121
-		{
-			dataType="Marker";
-			position[]={10287.495,7.1887509e+015,19050.41};
-			name="BASE__83";
-			type="Empty";
-			id=287;
-			atlOffset=7.1887509e+015;
-		};
-		class Item122
-		{
-			dataType="Marker";
-			position[]={10381.516,7.1887509e+015,19068.428};
-			name="BASE__84";
-			type="Empty";
-			id=288;
-			atlOffset=7.1887509e+015;
-		};
-		class Item123
-		{
-			dataType="Marker";
-			position[]={10278.487,7.1887509e+015,19117.973};
-			name="BASE__85";
-			type="Empty";
-			id=289;
-			atlOffset=7.1887509e+015;
-		};
-		class Item124
-		{
-			dataType="Marker";
-			position[]={9360.3477,7.1887509e+015,20266.043};
-			name="BASE__86";
-			type="Empty";
-			id=290;
-			atlOffset=7.1887509e+015;
-		};
-		class Item125
-		{
-			dataType="Marker";
-			position[]={9470.1797,7.1887509e+015,20245.229};
-			name="BASE__87";
-			type="Empty";
-			id=291;
-			atlOffset=7.1887509e+015;
-		};
-		class Item126
-		{
-			dataType="Marker";
-			position[]={9397.9922,7.1887509e+015,20203.6};
-			name="BASE__88";
-			type="Empty";
-			id=292;
-			atlOffset=7.1887509e+015;
-		};
-		class Item127
-		{
-			dataType="Marker";
-			position[]={14551.025,7.1887509e+015,20727.91};
-			name="BASE__89";
-			type="Empty";
-			id=293;
-			atlOffset=7.1887509e+015;
-		};
-		class Item128
-		{
-			dataType="Marker";
-			position[]={14601.19,7.1887509e+015,20707.705};
-			name="BASE__90";
-			type="Empty";
-			id=294;
-			atlOffset=7.1887509e+015;
-		};
-		class Item129
-		{
-			dataType="Marker";
-			position[]={14715.807,7.1887509e+015,20811.869};
-			name="BASE__91";
-			type="Empty";
-			id=295;
-			atlOffset=7.1887509e+015;
-		};
-		class Item130
-		{
-			dataType="Marker";
-			position[]={21276.715,7.1887509e+015,16280.924};
-			name="BASE__92";
-			type="Empty";
-			id=296;
-			atlOffset=7.1887509e+015;
-		};
-		class Item131
-		{
-			dataType="Marker";
-			position[]={21462.055,7.1887509e+015,16315.514};
-			name="BASE__93";
-			type="Empty";
-			id=297;
-			atlOffset=7.1887509e+015;
-		};
-		class Item132
-		{
-			dataType="Marker";
-			position[]={21481.982,7.1887509e+015,16439.959};
-			name="BASE__94";
-			type="Empty";
-			id=298;
-			atlOffset=7.1887509e+015;
-		};
-		class Item133
-		{
-			dataType="Marker";
-			position[]={21033.123,7.1887509e+015,16692.176};
-			name="BASE__95";
-			type="Empty";
-			id=299;
-			atlOffset=7.1887509e+015;
-		};
-		class Item134
-		{
-			dataType="Marker";
-			position[]={20872.123,7.1887509e+015,16897.254};
-			name="BASE__96";
-			type="Empty";
-			id=300;
-			atlOffset=7.1887509e+015;
-		};
-		class Item135
-		{
-			dataType="Marker";
-			position[]={20946.395,7.1887509e+015,17009.611};
-			name="BASE__97";
-			type="Empty";
-			id=301;
-			atlOffset=7.1887509e+015;
-		};
-		class Item136
-		{
-			dataType="Marker";
-			position[]={20848.637,7.1887509e+015,17116.891};
-			name="BASE__98";
-			type="Empty";
-			id=302;
-			atlOffset=7.1887509e+015;
-		};
-		class Item137
-		{
-			dataType="Marker";
-			position[]={21037.803,7.1887509e+015,17140.377};
-			name="BASE__99";
-			type="Empty";
-			id=303;
-			atlOffset=7.1887509e+015;
-		};
-		class Item138
-		{
-			dataType="Marker";
-			position[]={21136.828,7.1887509e+015,16946.766};
-			name="BASE__100";
-			type="Empty";
-			id=304;
-			atlOffset=7.1887509e+015;
-		};
-		class Item139
-		{
-			dataType="Marker";
-			position[]={20977.498,7.1887509e+015,16786.803};
-			name="BASE__101";
-			type="Empty";
-			id=305;
-			atlOffset=7.1887509e+015;
-		};
-		class Item140
-		{
-			dataType="Marker";
-			position[]={28285.129,7.1887509e+015,25764.242};
-			name="BASE__102";
-			type="Empty";
-			id=306;
-			atlOffset=7.1887509e+015;
-		};
-		class Item141
-		{
-			dataType="Marker";
-			position[]={3684.6099,30.531982,12287.47};
-			name="itm1_";
-			type="Empty";
-			id=307;
-			atlOffset=-0.77209282;
-		};
-		class Item142
-		{
-			dataType="Marker";
-			position[]={3731.9226,31.583616,12326.602};
-			name="itm1__1";
-			type="Empty";
-			id=308;
-			atlOffset=-0.77142525;
-		};
-		class Item143
-		{
-			dataType="Marker";
-			position[]={3636.9465,9.4673424,13099.938};
-			name="itm1__2";
-			type="Empty";
-			id=309;
-			atlOffset=-0.67169857;
-		};
-		class Item144
-		{
-			dataType="Marker";
-			position[]={3636.8259,-1.4467554e-017,13098.53};
-			name="itm2_";
-			type="Empty";
-			id=310;
-			atlOffset=-10.143278;
-		};
-		class Item145
-		{
-			dataType="Marker";
-			position[]={3637.761,-8.3956518e-013,13099.169};
-			name="itm3_";
-			type="Empty";
-			id=311;
-			atlOffset=-10.139578;
-		};
-		class Item146
-		{
-			dataType="Marker";
-			position[]={3636.4641,-0.00026631949,13099.421};
-			name="itm4_";
-			type="Empty";
-			id=312;
-			atlOffset=-10.142617;
-		};
-		class Item147
-		{
-			dataType="Marker";
-			position[]={3637.0601,-0.00022864825,13099.328};
-			name="itm5_";
-			type="Empty";
-			id=313;
-			atlOffset=-10.140445;
-		};
-		class Item148
-		{
-			dataType="Marker";
-			position[]={3636.5281,-0.00022882427,13098.972};
-			name="itm6_";
-			type="Empty";
-			id=314;
-			atlOffset=-10.143522;
-		};
-		class Item149
-		{
-			dataType="Marker";
-			position[]={3637.0769,-0.00022953952,13098.963};
-			name="itm7_";
-			type="Empty";
-			id=315;
-			atlOffset=-10.141353;
-		};
-		class Item150
-		{
-			dataType="Marker";
-			position[]={3637.1899,-0.00022960192,13098.64};
-			name="itm8_";
-			type="Empty";
-			id=316;
-			atlOffset=-10.141763;
+			position[]={20784.773,31.694386,6672.8633};
+			name="respawn_civ_58";
+			type="Empty";
+			id=452;
+			atlOffset=-10.205814;
 		};
 	};
 };
