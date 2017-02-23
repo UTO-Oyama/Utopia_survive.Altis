@@ -23,6 +23,7 @@ fn_savePlayer = compile preprocessFileLineNumbers "savePlayer.sqf";
 
 
 //----------------------------------------Save systems----------------------------------------------------------------
+player addAction ["SAVE",fn_savePlayer];
 waitUntil {time > 0};
 
 execVM "core\config\saveFuncs.sqf";
@@ -48,6 +49,4 @@ if(!isDedicated) then
 	execVM "core\config\loadAccount.sqf";
 	execVM "core\config\saveLoop.sqf";
 };
-
-player addAction ["SAVE",fn_savePlayer];
 //----------------------------------------Save systems----------------------------------------------------------------
