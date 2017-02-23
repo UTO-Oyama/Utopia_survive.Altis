@@ -12,6 +12,7 @@ if(local player) then {
         ] spawn BIS_fnc_typeText;
     };
 
+execVM "core\spawn\spawn.sqf";
 execVM "welcomecredits.sqf";
 execVM "core\scripts\NRE_earplugs.sqf";
 execVM "core\scripts\lacrymo.sqf";
