@@ -61,8 +61,8 @@ waitUntil {
    !isNull player
 };
 
-player addItem "UGL_FlareYellow_F";
-player addItem "UGL_FlareYellow_F";
+//player addItem "UGL_FlareYellow_F";
+//player addItem "UGL_FlareYellow_F";
 
 player addEventHandler ["Fired",{
 	private["_ammoType","_projectile"];

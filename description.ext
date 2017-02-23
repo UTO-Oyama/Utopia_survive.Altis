@@ -25,13 +25,8 @@ class Header
 };
 
 #include "taw_vd\GUI.h"
-#include "ATLAS\description.ext"
-    class CfgFunctions
-    {
-	    #include "taw_vd\CfgFunctions.hpp"
 
-	class ATLAS
-	{
-		#include "ATLAS\rSquadManagement\cfgFunctions.hpp"
-	};
-};
+    class CfgFunctions
+     {
+	    #include "taw_vd\CfgFunctions.hpp"
+     };
