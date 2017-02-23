@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project name="NRE Earplugs">
+	<Package name="NREEarplugs">
+		<Key ID="STR_NREEP_IN_HINT">
+			<Original>Vous avez Insérer les bouchons d'oreilles!</Original>
+		</Key>
+		<Key ID="STR_NREEP_OUT_HINT">
+			<Original>Vous avez retirer les bouchons d'oreilles!</Original>
+		</Key>
+		<Key ID="STR_NREEP_IN_ACTION">
+			<Original>Insérer les bouchons d'oreilles</Original>
+		</Key>
+		<Key ID="STR_NREEP_OUT_ACTION">
+			<Original>Retirer les bouchons d'oreilles</Original>
+		</Key>
+	</Package>
+</Project>

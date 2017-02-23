@@ -1,0 +1,34 @@
+author = "Oyama et Amaury";
+onLoadMission = "Utopia Survior V1.0";
+onLoadIntro = "Survivre ou mourir";
+OnLoadName = "Survivor";
+onLoadMissionTime = 1;
+loadScreen = "core\resources\textures\LoadscreenAltis.jpg";
+respawn = 3;
+respawnButton = 1;
+respawnDelay = 2;
+//respawnVehicleDelay = 120;
+respawnDialog = 1;
+//reviveBleedOutDelay = 120;
+disabledAI = 1;
+aiKills = 1;
+showHUD = [true,true,false,false,true,true,true,true];
+ShowCompass = 1;
+ShowMap = 1;
+ShowGPS = 1;
+ShowWatch = 1;
+ShowRadio = 1;
+ShowPad = 1;
+enableDebugConsole = 2;
+enableRadio = false;
+saving = 0;
+Briefing = 1;
+Debriefing = 1;
+disableChannels[] = {0,2,4,6};
+
+class Header
+{
+	gameType = Survive;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
