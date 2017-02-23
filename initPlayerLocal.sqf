@@ -19,6 +19,8 @@ execVM "core\scripts\lacrymo.sqf";
 execVM "core\config\briefing.sqf";
 execVM "core\fn_autoMessages.sqf";
 
+fn_savePlayer = compile preprocessFileLineNumbers "savePlayer.sqf";
+
 
 //----------------------------------------Save systems----------------------------------------------------------------
 waitUntil {time > 0};
