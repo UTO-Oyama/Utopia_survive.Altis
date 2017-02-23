@@ -1,5 +1,5 @@
 _onScreenTime = 8;
-sleep 15; //Wait in seconds before the credits start after player is in-game
+sleep 20; //Wait in seconds before the credits start after player is in-game
 _role1 = "Bienvenue sur le serveur Utopia";
 _role1names = ["Survivre ou mourir..."];
 _role2 = "Site/Forum";

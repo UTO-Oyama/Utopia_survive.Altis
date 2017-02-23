@@ -22,7 +22,6 @@ execVM "core\fn_autoMessages.sqf";
 
 fn_savePlayer = compile preprocessFileLineNumbers "core\config\savePlayer.sqf";
 
-
 //----------------------------------------Save systems----------------------------------------------------------------
 player addAction ["Sauvegarder",fn_savePlayer];
 waitUntil {time > 0};
