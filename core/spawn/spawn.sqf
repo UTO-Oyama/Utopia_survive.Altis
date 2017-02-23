@@ -1,7 +1,7 @@
  _baseMarkers = [];
 
 {
-    if(_x select [0,5] == "BASE_") then {
+    if(_x select [0,8] == "respawn_") then {
         _baseMarkers pushBackUnique _x;
     };
 }forEach allMapMarkers;
