@@ -17,6 +17,7 @@ Briefing = 1;
 Debriefing = 1;
 disableChannels[] = {0,1,2,6};
 
+#include "core\ATLAS\description.ext"
 class Header
 {
 	gameType = Survive;
