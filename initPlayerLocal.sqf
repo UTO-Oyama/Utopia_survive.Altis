@@ -19,6 +19,8 @@ execVM "core\scripts\NRE_earplugs.sqf";
 execVM "core\scripts\lacrymo.sqf";
 execVM "core\config\briefing.sqf";
 execVM "core\fn_autoMessages.sqf";
+execVM "core\scripts\flashbang.sqf";
+
 
 fn_savePlayer = compile preprocessFileLineNumbers "core\config\savePlayer.sqf";
 
