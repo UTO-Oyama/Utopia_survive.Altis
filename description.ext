@@ -17,16 +17,21 @@ Briefing = 1;
 Debriefing = 1;
 disableChannels[] = {0,1,2,6};
 
-#include "core\ATLAS\description.ext"
 class Header
 {
 	gameType = Survive;
 	minPlayers = 1;
 	maxPlayers = 100;
 };
-#include "taw_vd\GUI.h"
 
-class CfgFunctions
-{
-	#include "taw_vd\CfgFunctions.hpp"
+#include "taw_vd\GUI.h"
+#include "ATLAS\description.ext"
+    class CfgFunctions
+    {
+	    #include "taw_vd\CfgFunctions.hpp"
+
+	class ATLAS
+	{
+		#include "ATLAS\rSquadManagement\cfgFunctions.hpp"
+	};
 };

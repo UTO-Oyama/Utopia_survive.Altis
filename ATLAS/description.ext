@@ -10,26 +10,7 @@
 
 
 
-class RscTitles 
+class RscTitles
 {
-
-
 	#include "rSquadManagement\gui\notification.hpp"
-
 };
-
-
-
-class CfgFunctions
-{
-
-	
-	class ATLAS 
-	{		
-		#include "rSquadManagement\cfgFunctions.hpp"
-	};
-};
-
-
-
-
