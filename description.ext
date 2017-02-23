@@ -12,7 +12,6 @@ respawnDialog = 1;
 //reviveBleedOutDelay = 120;
 disabledAI = 1;
 aiKills = 1;
-//showHUD = [true,true,false,false,true,true,true,true];
 enableDebugConsole = 2;
 enableRadio = false;
 saving = 0;
