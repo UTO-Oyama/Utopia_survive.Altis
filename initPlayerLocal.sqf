@@ -20,7 +20,7 @@ execVM "core\scripts\lacrymo.sqf";
 execVM "core\config\briefing.sqf";
 execVM "core\fn_autoMessages.sqf";
 
-fn_savePlayer = compile preprocessFileLineNumbers "savePlayer.sqf";
+fn_savePlayer = compile preprocessFileLineNumbers "core\config\savePlayer.sqf";
 
 
 //----------------------------------------Save systems----------------------------------------------------------------
