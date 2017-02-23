@@ -1,4 +1,4 @@
-player globalChat format ["Votre profile a été sauvegardé%1.",name player];
+player globalChat format ["Votre profile a été sauvegardé %1.",name player];
 
 	["positionPlayer", getPosATL player] call fn_SaveStat;
 	["directionPlayer", direction player] call fn_SaveStat;
