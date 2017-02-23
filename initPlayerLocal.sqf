@@ -48,4 +48,6 @@ if(!isDedicated) then
 	execVM "core\config\loadAccount.sqf";
 	execVM "core\config\saveLoop.sqf";
 };
+
+player addAction ["SAVE",fn_savePlayer];
 //----------------------------------------Save systems----------------------------------------------------------------
