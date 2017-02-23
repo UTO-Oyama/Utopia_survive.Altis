@@ -10,7 +10,7 @@
 		"Notre TeamSpeak est:<br/><t color='#e32828' size='1.5'>ts.utopiagaming.org</t>"
 	];
 
-	_refreshTime = 300;
+	_refreshTime = 600;
 	_i = 0;
 	while {true} do {
 		_count = count _messages;

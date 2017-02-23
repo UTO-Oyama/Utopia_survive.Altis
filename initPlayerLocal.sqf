@@ -1,6 +1,7 @@
 remoteExecCall ["setSpeaker", 0];
 enableSaving [false,false];
 setViewdistance 2500;
+player addEventHandler ["Respawn",{player addAction ["Sauvegarder",fn_savePlayer]}];
 
 if(local player) then {
     [
@@ -23,7 +24,7 @@ fn_savePlayer = compile preprocessFileLineNumbers "savePlayer.sqf";
 
 
 //----------------------------------------Save systems----------------------------------------------------------------
-player addAction ["SAVE",fn_savePlayer];
+player addAction ["Sauvegarder",fn_savePlayer];
 waitUntil {time > 0};
 
 execVM "core\config\saveFuncs.sqf";

@@ -17,4 +17,4 @@
 
 //END
 statsLoaded = 1;
-player globalChat format ["Your stats are loaded %1.",name player];
+player globalChat format ["Votre profile a été sauvegardé %1.",name player];
