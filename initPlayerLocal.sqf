@@ -22,7 +22,7 @@ execVM "core\fn_autoMessages.sqf";
 execVM "core\scripts\flashbang.sqf";
 
 
-fn_savePlayer = compile preprocessFileLineNumbers "core\config\savePlayer.sqf";
+/*fn_savePlayer = compile preprocessFileLineNumbers "core\config\savePlayer.sqf";
 
 //----------------------------------------Save systems----------------------------------------------------------------
 player addAction ["Sauvegarder",fn_savePlayer];
@@ -51,4 +51,4 @@ if(!isDedicated) then
 	execVM "core\config\loadAccount.sqf";
 	execVM "core\config\saveLoop.sqf";
 };
-//----------------------------------------Save systems----------------------------------------------------------------
+//----------------------------------------Save systems----------------------------------------------------------------*/

@@ -51,7 +51,7 @@ while {alive _zombie} do {
 		if (_zombie distance getposATL _target < 160) then {_zombie doMove getposATL _target;};
 		if (_zombie distance getposATL _target < 1.5 && alive _target  && _target != _zombie) then
 		{
-			_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
+			_zombie switchMove "AwopPercMstpSgthWnonDnon_end"; //mouvement des Zombies
 			_target setDamage (damage _target + (zombiedamage/100));
 			_zombie say3d "zomb2";
 			sleep 1.5;
