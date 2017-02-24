@@ -15,13 +15,13 @@ enableRadio = false;
 saving = 0;
 Briefing = 1;
 Debriefing = 1;
-disableChannels[] = {0,1,2,6};
+disableChannels[] = {0,1,2,3,6}; //0 = Global,1 = Side,2 = Command,3 = Group,4 = Vehicle,5 = Direct,6 = System
 
 class Header
 {
 	gameType = Survive;
 	minPlayers = 1;
-	maxPlayers = 100;
+	maxPlayers = 6;
 };
 
 #include "taw_vd\GUI.h"
@@ -30,3 +30,26 @@ class Header
      {
 	    #include "taw_vd\CfgFunctions.hpp"
      };
+
+class CfgSounds
+{
+	sounds[] = {};
+	class zomb1
+	{
+		name = "zomb1";
+		sound[] = {"\core\resources\sounds\zomb1.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zomb2
+	{
+		name = "zomb2";
+		sound[] = {"\core\resources\sounds\zomb2.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zomb3
+	{
+		name = "zomb3";
+		sound[] = {"\core\resources\sounds\zomb3.ogg", 1, 1};
+		titles[] = {};
+	};
+};

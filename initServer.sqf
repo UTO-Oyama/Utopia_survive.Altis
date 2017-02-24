@@ -6,3 +6,4 @@ remoteExecCall ["setSpeaker", 0];
 
 [] execVM "core\spawn\wpsRandom.sqf";
 [] execVM "core\spawn\itmRandom.sqf";
+[] execVM "core\config\configurations.sqf";
