@@ -1,7 +1,7 @@
 remoteExecCall ["setSpeaker", 0];
 enableSaving [false,false];
 setViewdistance 2500;
-player addEventHandler ["Respawn",{player addAction ["Sauvegarder",fn_savePlayer]}];
+//player addEventHandler ["Respawn",{player addAction ["Sauvegarder",fn_savePlayer]}];
 
 if(local player) then {
     [
