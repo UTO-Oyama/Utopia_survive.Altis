@@ -1,0 +1,13 @@
+thirst=100;
+hunger=100;
+inv_drinks=0;
+inv_food=0;
+prc="%";
+("ThirstTitle_layer" call BIS_fnc_rscLayer) cutRsc ["ThirstTitle","PLAIN"];
+(uiNameSpace getVariable "myUI_ThirstTitle") ctrlSetText format ["Thirst: %1%2",thirst,prc];
+("HungerTitle_layer" call BIS_fnc_rscLayer) cutRsc ["HungerTitle","PLAIN"];
+(uiNameSpace getVariable "myUI_HungerTitle") ctrlSetText format ["Hunger: %1%2",hunger,prc];
+("FoodTitle_layer" call BIS_fnc_rscLayer) cutRsc ["FoodTitle","PLAIN"];
+(uiNameSpace getVariable "myUI_FoodTitle") ctrlSetText format ["Food: %1",inv_food];
+("DrinksTitle_layer" call BIS_fnc_rscLayer) cutRsc ["DrinksTitle","PLAIN"];
+(uiNameSpace getVariable "myUI_DrinksTitle") ctrlSetText format ["Drinks: %1",inv_drinks];

@@ -16,21 +16,26 @@ saving = 0;
 Briefing = 1;
 Debriefing = 1;
 disableChannels[] = {0,1,2,3,6}; //0 = Global,1 = Side,2 = Command,3 = Group,4 = Vehicle,5 = Direct,6 = System
-
 class Header
 {
 	gameType = Survive;
 	minPlayers = 1;
 	maxPlayers = 6;
 };
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include "taw_vd\GUI.h"
-
     class CfgFunctions
      {
 	    #include "taw_vd\CfgFunctions.hpp"
      };
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class CfgSounds
 {
 	sounds[] = {};
@@ -53,3 +58,114 @@ class CfgSounds
 		titles[] = {};
 	};
 };
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class RscTitles
+{
+     class ThirstTitle
+       {
+           idd = 3;
+           duration = 999999;
+           onLoad = "uiNameSpace setVariable ['myUI_ThirstTitle', (_this select 0) displayCtrl 101];";
+           class controls
+           {
+                   class ThirstControl
+                   {
+                           idc = 101;
+                           type = 0;
+                           style = 2;
+                           x =  safeZoneX + safeZoneW - 1.7 * 3 / 4;
+                           y = safeZoneY + safeZoneH - 0.1;
+                           w = 0.2;
+                           h = 0.2 * 3 / 4;
+                           font = "PuristaSemiBold";
+                           sizeEX = 0.05;
+                           colorBackground[] = {0,0,0,0};
+                           colorText[] = {1,1,1,1};
+               shadow = 1;
+                           text = "";
+                       };
+               };
+       };
+
+     class HungerTitle
+       {
+           idd = 4;
+           duration = 999999;
+           onLoad = "uiNameSpace setVariable ['myUI_HungerTitle', (_this select 0) displayCtrl 101];";
+           class controls
+           {
+                   class HungerControl
+                   {
+                           idc = 101;
+                           type = 0;
+                           style = 2;
+                           x =  safeZoneX + safeZoneW - 3 * 3 / 4;
+                           y = safeZoneY + safeZoneH - 0.1;
+                           w = 0.2;
+                           h = 0.2 * 3 / 4;
+                           font = "PuristaSemiBold";
+                           sizeEX = 0.05;
+                           colorBackground[] = {0,0,0,0};
+                           colorText[] = {1,1,1,1};
+               shadow = 1;
+                           text = "";
+                       };
+               };
+       };
+     class FoodTitle
+       {
+           idd = 5;
+           duration = 999999;
+           onLoad = "uiNameSpace setVariable ['myUI_FoodTitle', (_this select 0) displayCtrl 101];";
+           class controls
+           {
+                   class FoodControl
+                   {
+                           idc = 101;
+                           type = 0;
+                           style = 2;
+                           x =  safeZoneX + safeZoneW - 2.8 * 3 / 4;
+                           y = safeZoneY + safeZoneH - 0.1;
+                           w = 0.2;
+                           h = 0.2 * 3 / 4;
+                           font = "PuristaSemiBold";
+                           sizeEX = 0.03;
+                           colorBackground[] = {0,0,0,0};
+                           colorText[] = {1,1,1,1};
+               shadow = 1;
+                           text = "";
+                       };
+               };
+       };
+     class DrinksTitle
+       {
+           idd = 3;
+           duration = 999999;
+           onLoad = "uiNameSpace setVariable ['myUI_DrinksTitle', (_this select 0) displayCtrl 101];";
+           class controls
+           {
+                   class DrinksControl
+                   {
+                           idc = 101;
+                           type = 0;
+                           style = 2;
+                           x =  safeZoneX + safeZoneW - 1.5 * 3 / 4;
+                           y = safeZoneY + safeZoneH - 0.1;
+                           w = 0.2;
+                           h = 0.2 * 3 / 4;
+                           font = "PuristaSemiBold";
+                           sizeEX = 0.03;
+                           colorBackground[] = {0,0,0,0};
+                           colorText[] = {1,1,1,1};
+               shadow = 1;
+                           text = "";
+                       };
+               };
+       };
+#include "core\UI\defines.hpp"
+};
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

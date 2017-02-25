@@ -1,0 +1,6 @@
+	while {alive player} do {
+	(uiNameSpace getVariable "myUI_ThirstTitle") ctrlSetText format ["Thirst: %1%2",thirst,prc];
+	(uiNameSpace getVariable "myUI_HungerTitle") ctrlSetText format ["Hunger: %1%2",hunger,prc];
+	sleep 0.5; <---- updates the UI every 0.5 seconds
+	}
+
