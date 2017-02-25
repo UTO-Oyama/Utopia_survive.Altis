@@ -1,7 +1,6 @@
 remoteExecCall ["setSpeaker", 0];
 enableSaving [false,false];
 setViewdistance 2500;
-player addEventHandler ["Respawn",{player addAction ["Sauvegarder",fn_savePlayer]}];
 
 if(local player) then {
     [
@@ -20,35 +19,3 @@ execVM "core\scripts\lacrymo.sqf";
 execVM "core\config\briefing.sqf";
 execVM "core\fn_autoMessages.sqf";
 execVM "core\scripts\flashbang.sqf";
-
-
-/*fn_savePlayer = compile preprocessFileLineNumbers "core\config\savePlayer.sqf";
-
-//----------------------------------------Save systems----------------------------------------------------------------
-player addAction ["Sauvegarder",fn_savePlayer];
-waitUntil {time > 0};
-
-execVM "core\config\saveFuncs.sqf";
-waitUntil {!isNil "saveFuncsLoaded"};
-
-if(isServer) then
-{
-	_serverHasID = profileNameSpace getVariable ["ss_ServerID",nil];
-	if(isNil "_serverHasID") then
-	{
-		_serverID = str(round((random(100000)) + random 10000));
-		profileNameSpace setVariable ["SS_ServerID",_serverID];
-	};
-	serverID = profileNameSpace getVariable "ss_ServerID";
-	publicVariable "serverID";
-};
-
-waitUntil {!isNil "serverID"};
-
-
-if(!isDedicated) then
-{
-	execVM "core\config\loadAccount.sqf";
-	execVM "core\config\saveLoop.sqf";
-};
-//----------------------------------------Save systems----------------------------------------------------------------*/
