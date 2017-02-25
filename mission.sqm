@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=918;
+		nextID=927;
 	};
 	class MarkerIDProvider
 	{
@@ -16,26 +16,29 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8460.8643,143.03207,25135.441};
-		dir[]={0.0021588679,-0.97642207,0.21611112};
-		up[]={0.0097545544,0.21589461,0.97636753};
-		aside[]={1.0000041,7.4477634e-007,-0.0099898484};
+		pos[]={3652.7515,21.028513,13119.712};
+		dir[]={0.11954769,-0.6297133,-0.76758897};
+		up[]={0.096907184,0.77682281,-0.62222022};
+		aside[]={-0.98810226,3.5608537e-007,-0.15389024};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"A3_Ui_F",
-	"A3_Structures_F_Wrecks",
 	"A3_Characters_F",
 	"A3_Weapons_F",
-	"A3_Characters_F_Heads"
+	"A3_Characters_F_Heads",
+	"A3_Structures_F_Wrecks",
+	"A3_Structures_F_Civ_Garbage",
+	"A3_Structures_F_EPC_Civ_Garbage",
+	"A3_Structures_F_Bootcamp_Items_Food"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=4;
+		items=7;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -45,22 +48,43 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="A3_Structures_F_Wrecks";
-			name="Arma 3 - Vehicle Wrecks";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item2
-		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_Wrecks";
+			name="Arma 3 - Vehicle Wrecks";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item4
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Structures_F_EPC";
+			name="Arma 3 Win Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Structures_F_Bootcamp";
+			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -93,7 +117,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=62;
+		items=11;
 		class Item0
 		{
 			dataType="Marker";
@@ -104,560 +128,6 @@ class Mission
 			atlOffset=-10.142303;
 		};
 		class Item1
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={8401.4717,92.368927,25192.736};
-				angles[]={0.44208801,0,0.29390106};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-			};
-			id=35;
-			type="Land_Wreck_UAZ_F";
-		};
-		class Item2
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={8408.7354,95.097649,25190.934};
-				angles[]={0.39422336,0,0.11942901};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-			};
-			id=36;
-			type="Land_Wreck_HMMWV_F";
-		};
-		class Item3
-		{
-			dataType="Marker";
-			position[]={3637.6804,0,13076.149};
-			name="respawn_civ_1";
-			type="Empty";
-			id=341;
-			atlOffset=-10.173156;
-		};
-		class Item4
-		{
-			dataType="Marker";
-			position[]={3633.4246,0,13122.581};
-			name="respawn_civ_2";
-			type="Empty";
-			id=342;
-			atlOffset=-10.077069;
-		};
-		class Item5
-		{
-			dataType="Marker";
-			position[]={3685.4558,10.94108,13109.267};
-			name="respawn_civ_3";
-			type="Empty";
-			id=343;
-		};
-		class Item6
-		{
-			dataType="Marker";
-			position[]={3757.1191,18.848986,13002.066};
-			name="respawn_civ_4";
-			type="Empty";
-			id=344;
-		};
-		class Item7
-		{
-			dataType="Marker";
-			position[]={3308.1563,-7.4789381,12964.451};
-			name="respawn_civ_5";
-			type="Empty";
-			id=353;
-			atlOffset=-9.7722492;
-		};
-		class Item8
-		{
-			dataType="Marker";
-			position[]={3603.3315,-1.0143261,13179.402};
-			name="respawn_civ_6";
-			type="Empty";
-			id=362;
-			atlOffset=-10.087648;
-		};
-		class Item9
-		{
-			dataType="Marker";
-			position[]={3742.501,8.7388973,12997.28};
-			name="respawn_civ_7";
-			type="Empty";
-			id=375;
-			atlOffset=-10.091396;
-		};
-		class Item10
-		{
-			dataType="Marker";
-			position[]={3597.168,-1.9954948,13179.316};
-			name="respawn_civ_8";
-			type="Empty";
-			id=384;
-			atlOffset=-10.090287;
-		};
-		class Item11
-		{
-			dataType="Marker";
-			position[]={3732.9329,8.5825186,12996.92};
-			name="respawn_civ_9";
-			type="Empty";
-			id=389;
-			atlOffset=-10.169818;
-		};
-		class Item12
-		{
-			dataType="Marker";
-			position[]={3756.29,8.3739824,13039.556};
-			name="respawn_civ_10";
-			type="Empty";
-			id=390;
-			atlOffset=-10.185151;
-		};
-		class Item13
-		{
-			dataType="Marker";
-			position[]={3309.7109,-7.9779696,12967.319};
-			name="respawn_civ_11";
-			type="Empty";
-			id=391;
-			atlOffset=-10.285131;
-		};
-		class Item14
-		{
-			dataType="Marker";
-			position[]={3655.4846,-2.5808821,13339.754};
-			name="respawn_civ_12";
-			type="Empty";
-			id=392;
-			atlOffset=-10.087177;
-		};
-		class Item15
-		{
-			dataType="Marker";
-			position[]={3649.4058,-3.0714321,13333.636};
-			name="respawn_civ_13";
-			type="Empty";
-			id=393;
-			atlOffset=-10.116976;
-		};
-		class Item16
-		{
-			dataType="Marker";
-			position[]={3589.2646,2.779541,12840.439};
-			name="respawn_civ_14";
-			type="Empty";
-			id=402;
-			atlOffset=-10.17381;
-		};
-		class Item17
-		{
-			dataType="Marker";
-			position[]={3358.3027,-5.9553919,13139.577};
-			name="respawn_civ_15";
-			type="Empty";
-			id=403;
-			atlOffset=-10.012299;
-		};
-		class Item18
-		{
-			dataType="Marker";
-			position[]={3403.6807,-7.697185,13220.797};
-			name="respawn_civ_16";
-			type="Empty";
-			id=404;
-			atlOffset=-10.210516;
-		};
-		class Item19
-		{
-			dataType="Marker";
-			position[]={3822.1743,5.1111717,13601.867};
-			name="respawn_civ_17";
-			type="Empty";
-			id=405;
-			atlOffset=-10.173821;
-		};
-		class Item20
-		{
-			dataType="Marker";
-			position[]={3511.0439,-0.48428345,12666.663};
-			name="respawn_civ_18";
-			type="Empty";
-			id=406;
-			atlOffset=-10.17449;
-		};
-		class Item21
-		{
-			dataType="Marker";
-			position[]={4168.1343,41.831657,11800.503};
-			name="respawn_civ_19";
-			type="Empty";
-			id=407;
-			atlOffset=-10.190487;
-		};
-		class Item22
-		{
-			dataType="Marker";
-			position[]={4182.7446,43.418621,11723.207};
-			name="respawn_civ_20";
-			type="Empty";
-			id=408;
-			atlOffset=-10.091175;
-		};
-		class Item23
-		{
-			dataType="Marker";
-			position[]={5051.0762,43.923595,11317.152};
-			name="respawn_civ_21";
-			type="Empty";
-			id=409;
-			atlOffset=-10.178398;
-		};
-		class Item24
-		{
-			dataType="Marker";
-			position[]={5129.2451,39.397129,11211.812};
-			name="respawn_civ_22";
-			type="Empty";
-			id=410;
-			atlOffset=-10.152493;
-		};
-		class Item25
-		{
-			dataType="Marker";
-			position[]={5048.9858,30.72673,11150.78};
-			name="respawn_civ_23";
-			type="Empty";
-			id=411;
-			atlOffset=-10.155106;
-		};
-		class Item26
-		{
-			dataType="Marker";
-			position[]={5149.5732,36.574028,11093.527};
-			name="respawn_civ_24";
-			type="Empty";
-			id=412;
-			atlOffset=-10.05452;
-		};
-		class Item27
-		{
-			dataType="Marker";
-			position[]={7149.0894,-5.496233,11052.514};
-			name="respawn_civ_25";
-			type="Empty";
-			id=419;
-			atlOffset=-10.185958;
-		};
-		class Item28
-		{
-			dataType="Marker";
-			position[]={8908.9863,17.597481,11998.261};
-			name="respawn_civ_26";
-			type="Empty";
-			id=420;
-			atlOffset=-10.18915;
-		};
-		class Item29
-		{
-			dataType="Marker";
-			position[]={9007.8281,20.468815,12106.135};
-			name="respawn_civ_27";
-			type="Empty";
-			id=421;
-			atlOffset=-10.206482;
-		};
-		class Item30
-		{
-			dataType="Marker";
-			position[]={8881.3545,24.616161,12109.325};
-			name="respawn_civ_28";
-			type="Empty";
-			id=422;
-			atlOffset=-10.139164;
-		};
-		class Item31
-		{
-			dataType="Marker";
-			position[]={9109.3271,9.0525236,11949.371};
-			name="respawn_civ_29";
-			type="Empty";
-			id=423;
-			atlOffset=-10.175792;
-		};
-		class Item32
-		{
-			dataType="Marker";
-			position[]={9438.2695,7.3680544,11645.414};
-			name="respawn_civ_30";
-			type="Empty";
-			id=424;
-			atlOffset=-10.178487;
-		};
-		class Item33
-		{
-			dataType="Marker";
-			position[]={10560.886,5.1896439,12333.587};
-			name="respawn_civ_31";
-			type="Empty";
-			id=425;
-			atlOffset=-10.157159;
-		};
-		class Item34
-		{
-			dataType="Marker";
-			position[]={10729.243,7.669652,12231.652};
-			name="respawn_civ_32";
-			type="Empty";
-			id=426;
-			atlOffset=-10.170489;
-		};
-		class Item35
-		{
-			dataType="Marker";
-			position[]={10667.753,7.6088018,12158.983};
-			name="respawn_civ_33";
-			type="Empty";
-			id=427;
-			atlOffset=-10.171155;
-		};
-		class Item36
-		{
-			dataType="Marker";
-			position[]={12283.641,-2.4302096,14244.618};
-			name="respawn_civ_34";
-			type="Empty";
-			id=428;
-			atlOffset=-9.9801579;
-		};
-		class Item37
-		{
-			dataType="Marker";
-			position[]={12476.171,-0.80485344,14314.2};
-			name="respawn_civ_35";
-			type="Empty";
-			id=429;
-			atlOffset=-10.135833;
-		};
-		class Item38
-		{
-			dataType="Marker";
-			position[]={12692.346,6.7186022,14409.452};
-			name="respawn_civ_36";
-			type="Empty";
-			id=430;
-			atlOffset=-10.159825;
-		};
-		class Item39
-		{
-			dataType="Marker";
-			position[]={12475.496,6.3399,14450.662};
-			name="respawn_civ_37";
-			type="Empty";
-			id=431;
-			atlOffset=-10.137832;
-		};
-		class Item40
-		{
-			dataType="Marker";
-			position[]={12667.351,-6.8781738,14231.785};
-			name="respawn_civ_38";
-			type="Empty";
-			id=432;
-			atlOffset=-10.194653;
-		};
-		class Item41
-		{
-			dataType="Marker";
-			position[]={13932.949,13.024209,18723.504};
-			name="respawn_civ_39";
-			type="Empty";
-			id=433;
-			atlOffset=-10.151162;
-		};
-		class Item42
-		{
-			dataType="Marker";
-			position[]={14027.84,13.622443,18841.385};
-			name="respawn_civ_40";
-			type="Empty";
-			id=434;
-			atlOffset=-10.153827;
-		};
-		class Item43
-		{
-			dataType="Marker";
-			position[]={13874.846,10.011119,18898.234};
-			name="respawn_civ_41";
-			type="Empty";
-			id=435;
-			atlOffset=-10.175052;
-		};
-		class Item44
-		{
-			dataType="Marker";
-			position[]={14074.24,17.222725,18685.045};
-			name="respawn_civ_42";
-			type="Empty";
-			id=436;
-			atlOffset=-10.186962;
-		};
-		class Item45
-		{
-			dataType="Marker";
-			position[]={14022.405,12.552697,18570.926};
-			name="respawn_civ_43";
-			type="Empty";
-			id=437;
-			atlOffset=-10.157161;
-		};
-		class Item46
-		{
-			dataType="Marker";
-			position[]={16361.466,15.663762,17296.115};
-			name="respawn_civ_44";
-			type="Empty";
-			id=438;
-			atlOffset=-10.075847;
-		};
-		class Item47
-		{
-			dataType="Marker";
-			position[]={16311.284,12.227696,17229.598};
-			name="respawn_civ_45";
-			type="Empty";
-			id=439;
-			atlOffset=-10.143773;
-		};
-		class Item48
-		{
-			dataType="Marker";
-			position[]={18156.182,15.356038,15224.228};
-			name="respawn_civ_46";
-			type="Empty";
-			id=440;
-			atlOffset=-10.134498;
-		};
-		class Item49
-		{
-			dataType="Marker";
-			position[]={18010.105,18.152035,15243.507};
-			name="respawn_civ_47";
-			type="Empty";
-			id=441;
-			atlOffset=-10.100492;
-		};
-		class Item50
-		{
-			dataType="Marker";
-			position[]={18016.779,23.750324,15309.869};
-			name="respawn_civ_48";
-			type="Empty";
-			id=442;
-			atlOffset=-10.158493;
-		};
-		class Item51
-		{
-			dataType="Marker";
-			position[]={18181.021,10.305112,15108.926};
-			name="respawn_civ_49";
-			type="Empty";
-			id=443;
-			atlOffset=-10.160491;
-		};
-		class Item52
-		{
-			dataType="Marker";
-			position[]={16783.336,9.0469084,12605.559};
-			name="respawn_civ_50";
-			type="Empty";
-			id=444;
-			atlOffset=-10.123834;
-		};
-		class Item53
-		{
-			dataType="Marker";
-			position[]={16785.549,9.2194824,12607.483};
-			name="respawn_civ_51";
-			type="Empty";
-			id=445;
-			atlOffset=-10.152227;
-		};
-		class Item54
-		{
-			dataType="Marker";
-			position[]={16558.846,-7.6591759,12480.431};
-			name="respawn_civ_52";
-			type="Empty";
-			id=446;
-			atlOffset=-10.175166;
-		};
-		class Item55
-		{
-			dataType="Marker";
-			position[]={16429.77,-6.3379107,12666.299};
-			name="respawn_civ_53";
-			type="Empty";
-			id=447;
-			atlOffset=-10.145829;
-		};
-		class Item56
-		{
-			dataType="Marker";
-			position[]={16558.438,0.71668434,12817.119};
-			name="respawn_civ_54";
-			type="Empty";
-			id=448;
-			atlOffset=-10.178382;
-		};
-		class Item57
-		{
-			dataType="Marker";
-			position[]={20784.773,28.273586,6712.9048};
-			name="respawn_civ_55";
-			type="Empty";
-			id=449;
-			atlOffset=-10.21648;
-		};
-		class Item58
-		{
-			dataType="Marker";
-			position[]={20697.277,29.41114,6800.0298};
-			name="respawn_civ_56";
-			type="Empty";
-			id=450;
-			atlOffset=-10.168488;
-		};
-		class Item59
-		{
-			dataType="Marker";
-			position[]={20828.891,22.498013,6818.5674};
-			name="respawn_civ_57";
-			type="Empty";
-			id=451;
-			atlOffset=-10.205818;
-		};
-		class Item60
-		{
-			dataType="Marker";
-			position[]={20784.773,31.694386,6672.8633};
-			name="respawn_civ_58";
-			type="Empty";
-			id=452;
-			atlOffset=-10.205814;
-		};
-		class Item61
 		{
 			dataType="Group";
 			side="Civilian";
@@ -1234,6 +704,279 @@ class Mission
 			};
 			id=707;
 			atlOffset=-0.037986755;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3619.623,10.740034,13136.499};
+				angles[]={0.0039968039,1.7565866,0.014660765};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=918;
+			type="Land_Wreck_Slammer_turret_F";
+			atlOffset=9.5367432e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3623.8081,10.537271,13138.679};
+				angles[]={0.0039968039,0.02136283,0.010663962};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=919;
+			type="Land_Wreck_T72_hull_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3673.8879,11.135108,13143.873};
+				angles[]={0.025324726,0.96975726,0.013334315};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=920;
+			type="Land_Wreck_HMMWV_F";
+			atlOffset=-9.5367432e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3614.8652,9.9247293,13127.329};
+				angles[]={0.010664274,0,0.017332481};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=921;
+			type="Land_Garbage_square3_F";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3642.5676,10.202416,13111.197};
+				angles[]={0,0,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=922;
+			type="Land_Garbage_square3_F";
+			atlOffset=0.00022888184;
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3659.1953,10.283663,13139.298};
+				angles[]={0.011995304,0,0.0079935296};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=923;
+			type="Land_Garbage_square3_F";
+			atlOffset=-0.00023174286;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3671.5063,10.86802,13097.397};
+				angles[]={0.0039967569,0,6.2791886};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Fouiller"",""core\config\test\gatherfruit.sqf""]; ";
+				createAsSimpleObject=1;
+			};
+			id=924;
+			type="Land_GarbageBags_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3635.6829,10.624505,13141.033};
+				angles[]={6.2805324,3.1259546,0.0066671576};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Fouiller"",""core\config\test\gatherfruit.sqf""]; " \n "";
+			};
+			id=925;
+			type="Land_GarbageBarrel_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3639.2598,10.466194,13101.832};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Fouiller"",""core\config\test\gatherfruit.sqf""]; ";
+			};
+			id=926;
+			type="Land_FoodContainer_01_F";
+			atlOffset=0.099001884;
 		};
 	};
 };
