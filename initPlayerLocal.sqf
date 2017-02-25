@@ -2,6 +2,7 @@ remoteExecCall ["setSpeaker", 0];
 enableSaving [false,false];
 setViewdistance 2500;
 
+
 if(local player) then {
     [
         [
