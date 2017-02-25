@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=927;
+		nextID=949;
 	};
 	class MarkerIDProvider
 	{
-		nextID=4;
+		nextID=5;
 	};
 	class Camera
 	{
-		pos[]={3652.7515,21.028513,13119.712};
-		dir[]={0.11954769,-0.6297133,-0.76758897};
-		up[]={0.096907184,0.77682281,-0.62222022};
-		aside[]={-0.98810226,3.5608537e-007,-0.15389024};
+		pos[]={3621.6863,20.32366,13108.354};
+		dir[]={-0.43361655,-0.90081394,0.024901537};
+		up[]={-0.89934325,0.43417192,0.051646985};
+		aside[]={0.057337258,4.3201999e-007,0.99839413};
 	};
 };
 binarizationWanted=0;
@@ -32,13 +32,19 @@ addons[]=
 	"A3_Structures_F_Wrecks",
 	"A3_Structures_F_Civ_Garbage",
 	"A3_Structures_F_EPC_Civ_Garbage",
-	"A3_Structures_F_Bootcamp_Items_Food"
+	"A3_Structures_F_Bootcamp_Items_Food",
+	"A3_Structures_F_Items_Tools",
+	"A3_Structures_F_EPA_Items_Tools",
+	"A3_Structures_F_Civ_Accessories",
+	"A3_Structures_F_Heli_Ind_Machines",
+	"A3_Structures_F_Civ_Market",
+	"A3_Structures_F_Items_Vessels"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=9;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -88,6 +94,20 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item7
+		{
+			className="A3_Structures_F_EPA";
+			name="Arma 3 Survive Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item8
+		{
+			className="A3_Structures_F_Heli";
+			name="Arma 3 Helicopters - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
 	};
 };
 randomSeed=3144116;
@@ -117,15 +137,16 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=23;
 		class Item0
 		{
 			dataType="Marker";
-			position[]={3636.8879,0,13098.804};
+			position[]={3628.3867,0,13114.097};
 			name="respawn_civ";
 			type="Empty";
+			angle=270.55264;
 			id=34;
-			atlOffset=-10.142303;
+			atlOffset=-10.099546;
 		};
 		class Item1
 		{
@@ -710,8 +731,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3619.623,10.740034,13136.499};
-				angles[]={0.0039968039,1.7565866,0.014660765};
+				position[]={3648.9268,11.371775,13158.107};
+				angles[]={0,1.7565866,0};
 			};
 			side="Empty";
 			flags=4;
@@ -721,7 +742,6 @@ class Mission
 			};
 			id=918;
 			type="Land_Wreck_Slammer_turret_F";
-			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -751,8 +771,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3623.8081,10.537271,13138.679};
-				angles[]={0.0039968039,0.02136283,0.010663962};
+				position[]={3653.5356,11.121556,13160.687};
+				angles[]={0,0.02136283,0};
 			};
 			side="Empty";
 			flags=4;
@@ -832,8 +852,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3614.8652,9.9247293,13127.329};
-				angles[]={0.010664274,0,0.017332481};
+				position[]={3631.4241,10.098589,13125.885};
+				angles[]={0.0053265258,0,0.0080009829};
 			};
 			side="Empty";
 			flags=4;
@@ -926,8 +946,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3635.6829,10.624505,13141.033};
-				angles[]={6.2805324,3.1259546,0.0066671576};
+				position[]={3613.3328,10.711376,13108.458};
+				angles[]={0.010664274,3.1259546,0.0053265258};
 			};
 			side="Empty";
 			flags=4;
@@ -937,6 +957,7 @@ class Mission
 			};
 			id=925;
 			type="Land_GarbageBarrel_01_F";
+			atlOffset=-6.3896179e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -966,7 +987,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3639.2598,10.466194,13101.832};
+				position[]={3617.2139,10.337055,13108.331};
+				angles[]={0.0080009829,0,0.0026520467};
 			};
 			side="Empty";
 			flags=4;
@@ -976,7 +998,222 @@ class Mission
 			};
 			id=926;
 			type="Land_FoodContainer_01_F";
-			atlOffset=0.099001884;
+			atlOffset=-7.6293945e-006;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3613.7783,10.217434,13100.141};
+				angles[]={0.010664274,4.7396159,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="PickupAxeAct=this addAction[""Prendre la hache"",{call pickupAxe;(_this select 0)removeAction DropAxeAct;(_this select 0)removeAction PickupAxeAct;}];";
+			};
+			id=927;
+			type="Land_Axe_F";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3614.2495,10.219588,13100.146};
+				angles[]={0.010664274,4.7396159,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="PickupfAxeAct=this addAction[""Prendre la hache"",{call pickupfAxe;(_this select 0)removeAction DropfAxeAct;(_this select 0)removeAction PickupfAxeAct;}];";
+			};
+			id=928;
+			type="Land_Axe_fire_F";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3614.8074,10.215738,13100.119};
+				angles[]={0.010664274,6.263341,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="PickupSvlAct=this addAction[""Prendre la pelle"",{call pickupSvl;(_this select 0)removeAction DropSvlAct;(_this select 0)removeAction PickupSvlAct;}];";
+			};
+			id=929;
+			type="Land_Shovel_F";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3614.4453,10.244329,13100.948};
+				angles[]={0.010664274,1.6206604,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="PickupHamAct=this addAction[""Prendre le marteau"",{call pickupHam;(_this select 0)removeAction DropHamAct;(_this select 0)removeAction PickupHamAct;}];";
+			};
+			id=931;
+			type="Land_Hammer_F";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3618.3799,10.638934,13117.597};
+				angles[]={0.013332055,1.7495879,0.0066592805};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Prendre de l'eau"",""core\config\test\takeWater.sqf""];";
+			};
+			id=935;
+			type="Land_Sink_F";
+			atlOffset=-2.8610229e-006;
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3614.637,11.099391,13114.811};
+				angles[]={0.011995304,0.094596848,0.0066682254};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Prendre de l'eau"",""core\config\test\takeWater.sqf""];";
+			};
+			id=936;
+			type="WaterPump_01_forest_F";
+			atlOffset=-8.5830688e-006;
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3615.3142,10.504266,13108.406};
+				angles[]={0.010664274,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Fouiller"",""core\config\test\gatherfruit.sqf""]; " \n "";
+			};
+			id=937;
+			type="Land_Sack_F";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3613.8501,10.861122,13106.413};
+				angles[]={0.010663962,0,0.0053232545};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Fouiller"",""core\config\test\gatherfruit.sqf""]; " \n "";
+			};
+			id=938;
+			type="Land_CratesWooden_F";
+			atlOffset=9.5367432e-007;
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3617.0581,10.624786,13106.22};
+				angles[]={0.010663962,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Fouiller"",""core\config\test\gatherfruit.sqf""]; " \n "";
+			};
+			id=939;
+			type="Land_Sacks_goods_F";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3617.6404,10.4375,13115.609};
+				angles[]={0.0080009829,0,0.0066682254};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Prendre de l'eau"",""core\config\test\takeWater.sqf""];";
+			};
+			id=940;
+			type="Land_BarrelWater_F";
+			atlOffset=9.5367432e-007;
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3617.3623,10.620063,13113.585};
+				angles[]={0.012000273,0,0.0026520467};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Prendre de l'eau"",""core\config\test\takeWater.sqf""];";
+			};
+			id=941;
+			type="Land_WaterBarrel_F";
+			atlOffset=-2.8610229e-006;
+		};
+		class Item22
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3614.8142,10.666739,13118.703};
+				angles[]={0.013332055,1.7828888,0.011995304};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Prendre de l'eau"",""core\config\test\takeWater.sqf""];";
+			};
+			id=942;
+			type="Land_WaterTank_F";
+			atlOffset=-8.5830688e-006;
 		};
 	};
 };
