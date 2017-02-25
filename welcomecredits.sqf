@@ -6,10 +6,10 @@ _role2 = "Site/Forum";
 _role2names = ["http://Utopigaming.fr/"];
 _role3 = "TeamSpeak3";
 _role3names = ["ts.utopiagaming.org"];
-_role4 = "Attention";
-_role4names = ["Kills en Safe Zone = Ban"];
-_role5 = "Règle";
-_role5names = ["Les règles sont sur le forum, Merci de les lire avant de jouer !"];
+_role4 = "";
+_role4names = [""];
+_role5 = "";
+_role5names = [""];
 _role6 = "Attention";
 _role6names = ["Serveur en beta test !!!"];
 {
